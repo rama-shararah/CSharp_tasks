@@ -36,6 +36,7 @@ namespace _20_11_2022
             Console.WriteLine(cars[0]);
             Console.WriteLine(cars[1]);
             Console.WriteLine(cars[2]);
+            Console.WriteLine(cars[3]);
             Console.WriteLine(cars.Length);
 
 
@@ -49,8 +50,8 @@ namespace _20_11_2022
             Console.WriteLine("Input your year of birth:");
             string year = Console.ReadLine();
 
-            Console.Write(fName);
-            Console.Write(lName);
+            Console.Write(fName + " ");
+            Console.Write(lName + " ");
             Console.WriteLine(year);
 
 
