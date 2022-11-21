@@ -71,7 +71,7 @@ namespace _20_11_2022
             Console.WriteLine(arr[9]);
 
 
-            //task5 
+            //task6
             int[] myarr = { 5, 5, 10 };
             int sum = myarr[0] + myarr[1] + myarr[2];
             Console.WriteLine("Sum of all elements stored in the array is : " + sum);
