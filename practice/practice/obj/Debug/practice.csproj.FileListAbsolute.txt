@@ -1,0 +1,8 @@
+C:\CSharp_tasks\practice\practice\bin\Debug\practice.exe.config
+C:\CSharp_tasks\practice\practice\bin\Debug\practice.exe
+C:\CSharp_tasks\practice\practice\bin\Debug\practice.pdb
+C:\CSharp_tasks\practice\practice\obj\Debug\practice.csproj.AssemblyReference.cache
+C:\CSharp_tasks\practice\practice\obj\Debug\practice.csproj.SuggestedBindingRedirects.cache
+C:\CSharp_tasks\practice\practice\obj\Debug\practice.csproj.CoreCompileInputs.cache
+C:\CSharp_tasks\practice\practice\obj\Debug\practice.exe
+C:\CSharp_tasks\practice\practice\obj\Debug\practice.pdb
