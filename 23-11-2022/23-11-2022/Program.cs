@@ -11,6 +11,8 @@ namespace _23_11_2022
     {
         static void task1()
         {
+            Console.WriteLine("...........................Task 1........................");
+            Console.WriteLine("Enter 10 numbers");
             double sum = 0;
             for (int i = 1; i < 11; i++)
             {
@@ -27,8 +29,9 @@ namespace _23_11_2022
 
         //task2 
         static void task2() {
-            
-            
+
+            Console.WriteLine("...........................Task 2........................");
+            Console.WriteLine("Enter 5 numbers");
             for (int i = 0; i < 5; i++)
             {
                 int nm = Convert.ToInt32(Console.ReadLine());
@@ -42,6 +45,7 @@ namespace _23_11_2022
         //task3
         static void task3(int[] years)
         {
+            Console.WriteLine("...........................Task 3........................");
             for (int i = 0; i < years.Length; i++)
             {
                 if (years[i] > 1950)
@@ -54,6 +58,7 @@ namespace _23_11_2022
         //task4
         static void task4()
         {
+            Console.WriteLine("...........................Task 4........................");
             Console.Write("Plz Enter your age :");
             int x=Convert.ToInt32(Console.ReadLine());
             int days= x*365;
@@ -65,6 +70,7 @@ namespace _23_11_2022
 
         static int Task5Animals(int chickens, int cows, int pigs)
         {
+            Console.WriteLine("...........................Task 5........................");
             int legs = (chickens*2) + (cows*4) + (pigs*4);
             return legs;
 
@@ -76,6 +82,7 @@ namespace _23_11_2022
 
         static void Task6Login(string username, int password )
         {
+            Console.WriteLine("...........................Task 6........................");
             string[] user = { "rama","aram","shahd"};
             int[] pass = { 1234,6363,5555 };
             
@@ -117,6 +124,7 @@ namespace _23_11_2022
 
         static void task7()
         {
+            Console.WriteLine("...........................Task 7........................");
             Console.WriteLine("calc the power of numbers :");
 
             Console.Write(" Input the number : ");
@@ -139,6 +147,7 @@ namespace _23_11_2022
 
         static void task8()
         {
+            Console.WriteLine("...........................Task 8........................");
             for (int i = 1900; i < 2024; i++)
             {
                 if (i % 4 == 0)
@@ -152,6 +161,7 @@ namespace _23_11_2022
 
         static void task9()
         {
+            Console.WriteLine("...........................Task 9........................");
             Console.Write("Enter the Number to check Prime: ");
             int n = Convert.ToInt32(Console.ReadLine());
             
@@ -180,6 +190,7 @@ namespace _23_11_2022
 
         static void task10()
         {
+            Console.WriteLine("...........................Task 10........................");
             Console.Write("Enter a  sentence :");
             string sen = Console.ReadLine();
             string[] sen2 = sen.Split(' ');
@@ -194,13 +205,12 @@ namespace _23_11_2022
         static void Main(string[] args)
         {
 
-            task1();
+            //task1();
             task2();
             int[] years = { 1763, 1972, 1925, 1916, 1984, 1124, 1950, 2020 };
             task3(years);
             task4();
-            Console.WriteLine(Task5Animals(1, 3, 5));
-            Console.WriteLine(Task5Animals(2, 1, 4));
+            Console.WriteLine("total legs :"+Task5Animals(1, 3, 5));
             Task6Login("aram", 6363);
             task7();
             task8();
