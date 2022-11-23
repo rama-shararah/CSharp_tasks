@@ -40,7 +40,7 @@ namespace _22_11_2022
                 Console.WriteLine(FavoriteSport[x]);
             }
 
-            string[] FavoriteMovie = { "Thor", "Howls moving castle", "violet Evergarden", "Spiderman" };
+            string[] FavoriteMovie = { "Encanto", "Howls moving castle", "violet Evergarden", "MARVEL Movies" };
             foreach (string y in FavoriteMovie)
             {
                 Console.WriteLine(y);
@@ -150,6 +150,9 @@ namespace _22_11_2022
             }
             double avg = plus / ar2.Length;
             Console.WriteLine(avg);
+
+
+
 
         }
     }
