@@ -159,17 +159,24 @@ namespace _23_11_2022
         }
 
 
-        static void task9()
+        static string task9()
         {
             Console.WriteLine("...........................Task 9........................");
             Console.Write("Enter the Number to check Prime: ");
             int n = Convert.ToInt32(Console.ReadLine());
-            
-            if (n == 2) { Console.WriteLine("prime"); }
-            else if (n % 2 == 0) { Console.WriteLine("not prime"); }
-            else { Console.WriteLine("prime"); }
+
+            for (int i = 2; i < n; i++)
+            {
+                if (n % i == 0)
+                {
+                    return "not prime";
+                    
+                }  
+            }
+            return "prime";
         }
 
+ 
 
         //static void task10()
         //{
@@ -205,19 +212,17 @@ namespace _23_11_2022
         static void Main(string[] args)
         {
 
-            //task1();
+            task1();
             task2();
             int[] years = { 1763, 1972, 1925, 1916, 1984, 1124, 1950, 2020 };
             task3(years);
             task4();
-            Console.WriteLine("total legs :"+Task5Animals(1, 3, 5));
+            Console.WriteLine("total legs :" + Task5Animals(1, 3, 5));
             Task6Login("aram", 6363);
             task7();
             task8();
-            task9();
+            Console.WriteLine(task9());
             task10();
-
-
         }
     }
 }
