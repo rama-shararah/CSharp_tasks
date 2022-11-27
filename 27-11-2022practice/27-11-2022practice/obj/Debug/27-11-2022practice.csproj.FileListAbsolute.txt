@@ -1,0 +1,8 @@
+C:\CSharp_tasks\27-11-2022practice\27-11-2022practice\bin\Debug\27-11-2022practice.exe.config
+C:\CSharp_tasks\27-11-2022practice\27-11-2022practice\bin\Debug\27-11-2022practice.exe
+C:\CSharp_tasks\27-11-2022practice\27-11-2022practice\bin\Debug\27-11-2022practice.pdb
+C:\CSharp_tasks\27-11-2022practice\27-11-2022practice\obj\Debug\27-11-2022practice.csproj.AssemblyReference.cache
+C:\CSharp_tasks\27-11-2022practice\27-11-2022practice\obj\Debug\27-11-2022practice.csproj.SuggestedBindingRedirects.cache
+C:\CSharp_tasks\27-11-2022practice\27-11-2022practice\obj\Debug\27-11-2022practice.csproj.CoreCompileInputs.cache
+C:\CSharp_tasks\27-11-2022practice\27-11-2022practice\obj\Debug\27-11-2022practice.exe
+C:\CSharp_tasks\27-11-2022practice\27-11-2022practice\obj\Debug\27-11-2022practice.pdb
