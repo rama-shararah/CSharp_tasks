@@ -31,23 +31,26 @@ namespace _28_11_2022
         }
         public Car() { }
 
-        public void engine(bool engine) {
+        public void engine() {
 
-            if (engine==true) {
-                Console.WriteLine("you just start the engine");
+            Console.WriteLine("start/stop the engine?");
+            string x = Console.ReadLine();
+            if (x=="start" || x=="Start") {
+                Console.WriteLine("The engine has been started");
             }
 
-            if(engine==false)
+            if(x=="stop" || x=="Stop")
             {
-                Console.WriteLine("you just stop the engine");
+                Console.WriteLine("The engine has been stopped");
             }
         
         }
-
-        public int calculate(int k, int x)
+        protected int KM = 20;
+        public void calculate(int lr)
         {
             
-            return k * x;
+            int KM_L= KM * lr;
+            Console.WriteLine($"The car will wake {KM_L} kilometers ");
         }
 
         public void fullInformation() {
@@ -87,14 +90,10 @@ namespace _28_11_2022
             Ford obj1 = new Ford("Ford", 2020, "sedan", 25000, "mustang", 7154, "blue");
             obj.fullInformation();
             obj1.fullInformation();
-            obj1.engine(true);
-            Console.WriteLine("Please enter how much Kilometer in one liter");
-            int x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Please enter the number of Liters you have");
-            int y = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("The number of Kilometer in " + y + " Liter = " + obj1.calculate(x, y));
+            obj1.engine();
+            obj1.calculate(2);
 
-            obj1.engine(false);
+            obj1.engine();
         }
     }
 }
