@@ -86,14 +86,13 @@ namespace _28_11_2022
         {
 
 
-            Car obj = new Car("Ford", 2020, "sedan", 25000, "mustang", 7154, "blue");
-            Ford obj1 = new Ford("Ford", 2020, "sedan", 25000, "mustang", 7154, "blue");
-            obj.fullInformation();
-            obj1.fullInformation();
-            obj1.engine();
-            obj1.calculate(2);
-
-            obj1.engine();
+            Car car = new Car("Ford", 2018, "sedan", 25000, "mustang", 8888, "black");
+            Ford car2 = new Ford("Ford", 2020, "sedan", 28000, "mustang", 7154, "blue");
+            car.fullInformation();
+            car2.fullInformation();
+            car2.engine();
+            car2.calculate(2);
+            car2.engine();
         }
     }
 }
