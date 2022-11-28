@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _27_11_2022
+namespace OOP_tasks
 {
     internal class Information
     {
@@ -43,13 +43,15 @@ namespace _27_11_2022
 
         static void Main(string[] args)
         {
-            Information person1 = new Information(22, "female", "rama", "rama@gmail.com", 1, "0776610148");
+            Information person1 = new Information(1, "female", "rama", "rama@gmail.com", 1, "0756610148");
             Console.WriteLine("Name :"+ person1.Name);
             Console.WriteLine("age :" + person1.Age);
             Console.WriteLine("Gender :"+ person1.Gender);
             Console.WriteLine("id :" + person1.Id);
             Console.WriteLine("E-mail :" + person1.Email);
             Console.WriteLine("Phone :" + person1.Phone);
+
+
         }
     }
 

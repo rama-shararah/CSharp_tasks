@@ -1,0 +1,8 @@
+C:\CSharp_tasks\OOP-tasks\OOP-tasks\bin\Debug\OOP-tasks.exe.config
+C:\CSharp_tasks\OOP-tasks\OOP-tasks\bin\Debug\OOP-tasks.exe
+C:\CSharp_tasks\OOP-tasks\OOP-tasks\bin\Debug\OOP-tasks.pdb
+C:\CSharp_tasks\OOP-tasks\OOP-tasks\obj\Debug\27-11-2022.csproj.AssemblyReference.cache
+C:\CSharp_tasks\OOP-tasks\OOP-tasks\obj\Debug\27-11-2022.csproj.SuggestedBindingRedirects.cache
+C:\CSharp_tasks\OOP-tasks\OOP-tasks\obj\Debug\27-11-2022.csproj.CoreCompileInputs.cache
+C:\CSharp_tasks\OOP-tasks\OOP-tasks\obj\Debug\OOP-tasks.exe
+C:\CSharp_tasks\OOP-tasks\OOP-tasks\obj\Debug\OOP-tasks.pdb
