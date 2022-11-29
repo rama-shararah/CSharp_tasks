@@ -54,7 +54,7 @@ namespace _28_11_2022
         }
 
         public void fullInformation() {
-
+            Console.WriteLine("your car information :");
             Console.WriteLine("car make :" + Make);
             Console.WriteLine("car year :" + Year);
             Console.WriteLine("car type :" + Type);
